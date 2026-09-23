@@ -2,186 +2,479 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="Author" content="Benny Kavil">
-    <meta name="Keywords" content="Benny,Benny Kavil, Kavil,Benny Antony, I T Proffessional, LIC, Health">
-    <meta property="og:title" content="Born to Conquer the Universe. No 1 I T Solution Provider" />
-    <meta property="og:description" content="Provide World class I T solution to the Needy on 24 x7 pattern " />
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Benny Antony K | Professional Profile</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
-    <link rel="icon" href="http://www.geocities.ws/bennykavil/images/myphoto.jpg">
-    <meta property="og:image" content="http://www.geocities.ws/bennykavil/images/myphoto.jpg" />
-    <meta property="og:image:secure_url" content="http://www.geocities.ws/bennykavil/images/myphoto.jpg" />
-    <meta property="og:image:type" content="image/jpeg" />
-    <meta property="og:image:width" content="400" />
-    <meta property="og:image:height" content="300" />
-    <meta property="og:type" content="Sevices" />
-    <meta property="og:url" content="http://www.geocities.ws/bennykavil/images/myphoto.jpg" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Benny Antony K">
+  <meta name="keywords" content="Benny, Benny Kavil, Kavil, Benny Antony, IT Professional, IT Training, Kollam">
+  <meta name="description"
+    content="Benny Antony K — IT professional since 1986. IT services, digital solutions and online software training.">
+  <meta property="og:title" content="Benny Antony K — IT Professional since 1986">
+  <meta property="og:description" content="IT services and online training, built on 30+ years of hands-on experience.">
+  <meta property="og:image" content="http://www.geocities.ws/bennykavil/images/myphoto.jpg">
+  <meta property="og:type" content="profile">
+  <title>Benny Antony K | IT Professional Profile</title>
+  <link rel="icon" href="http://www.geocities.ws/bennykavil/images/myphoto.jpg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap"
+    rel="stylesheet">
+  <style>
+    :root {
+      --navy: #101b2d;
+      --paper: #f6f3ec;
+      --card: #ffffff;
+      --teal: #1e6e76;
+      --amber: #c4863a;
+      --ink: #232b33;
+      --muted: #647079;
+      --line: #dcd6c8;
+      --radius: 4px;
+    }
 
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: 'Poppins', sans-serif;
-        }
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
-        body {
-            background: #f4f6f9;
-            color: #333;
-        }
+    html {
+      scroll-behavior: smooth;
+    }
 
-        header {
-            background: #0d1b2a;
-            color: white;
-            padding: 20px 0;
-            text-align: center;
-        }
+    body {
+      background: var(--paper);
+      color: var(--ink);
+      font-family: 'IBM Plex Sans', sans-serif;
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
 
-        nav {
-            margin-top: 10px;
-        }
+    a {
+      color: var(--teal);
+      text-decoration: none;
+    }
 
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: 500;
-        }
+    a:hover,
+    a:focus-visible {
+      text-decoration: underline;
+    }
 
-        section {
-            padding: 60px 10%;
-        }
+    :focus-visible {
+      outline: 2px solid var(--teal);
+      outline-offset: 3px;
+    }
 
-        .hero {
-            text-align: center;
-        }
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
 
-        .hero h1 {
-            font-size: 40px;
-            color: #0d1b2a;
-        }
+    /* Header / nav */
+    header {
+      background: var(--navy);
+      color: #f0ede4;
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+    }
 
-        .hero p {
-            margin-top: 15px;
-            font-size: 18px;
-        }
+    .header-inner {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 14px 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
 
-        h2 {
-            margin-bottom: 25px;
-            color: #0d1b2a;
-            border-bottom: 3px solid #1b263b;
-            display: inline-block;
-            padding-bottom: 5px;
-        }
+    .brand {
+      font-family: 'Fraunces', serif;
+      font-weight: 600;
+      font-size: 19px;
+      letter-spacing: 0.2px;
+      color: #f7f4ea;
+    }
 
-        .skills-list,
-        .project-list {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
-            gap: 20px;
-            px;
-        }
+    nav {
+      display: flex;
+      gap: 18px;
+      flex-wrap: wrap;
+      font-size: 14px;
+    }
 
-        .card {
-            background: white;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
-        }
+    nav a {
+      color: #c9d2da;
+    }
 
-        footer {
-            background: #0d1b2a;
-            color: white;
-            text-align: center;
-            padding: 20px;
-        }
-    </style>
+    nav a:hover,
+    nav a:focus-visible {
+      color: #ffffff;
+      text-decoration: none;
+      border-bottom: 1px solid var(--amber);
+    }
+
+    /* Hero */
+    .hero {
+      padding: 64px 24px 48px;
+      max-width: 720px;
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      color: var(--teal);
+      margin-bottom: 14px;
+    }
+
+    .hero h1 {
+      font-family: 'Fraunces', serif;
+      font-weight: 700;
+      font-size: clamp(32px, 8vw, 46px);
+      line-height: 1.08;
+      color: var(--navy);
+      max-width: 11ch;
+    }
+
+    .hero .role {
+      margin-top: 10px;
+      font-size: 17px;
+      color: var(--muted);
+    }
+
+    .hero .pitch {
+      margin-top: 22px;
+      font-size: 16px;
+      max-width: 56ch;
+    }
+
+    section {
+      padding: 44px 24px;
+      max-width: 720px;
+      margin: 0 auto;
+      border-top: 1px solid var(--line);
+    }
+
+    section:first-of-type {
+      border-top: none;
+    }
+
+    h2 {
+      font-family: 'Fraunces', serif;
+      font-weight: 600;
+      font-size: 22px;
+      color: var(--navy);
+      margin-bottom: 22px;
+    }
+
+    section>p {
+      max-width: 62ch;
+      color: var(--ink);
+    }
+
+    /* Skills */
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skill-tag {
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      padding: 7px 12px;
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      color: var(--navy);
+    }
+
+    /* Timeline (Education) */
+    .timeline {
+      list-style: none;
+    }
+
+    .timeline li {
+      display: flex;
+      gap: 18px;
+      padding-bottom: 22px;
+      position: relative;
+    }
+
+    .timeline li:not(:last-child)::before {
+      content: "";
+      position: absolute;
+      left: 56px;
+      top: 22px;
+      bottom: 0;
+      width: 1px;
+      background: var(--line);
+    }
+
+    .timeline .year {
+      flex: 0 0 56px;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      color: var(--teal);
+      padding-top: 2px;
+    }
+
+    .timeline .detail h3 {
+      font-size: 16px;
+      font-weight: 600;
+      color: var(--navy);
+      margin-bottom: 2px;
+    }
+
+    .timeline .detail p {
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    /* Projects */
+    .project-list {
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+    }
+
+    .project {
+      background: var(--card);
+      border: 1px solid var(--line);
+      border-left: 3px solid var(--teal);
+      border-radius: var(--radius);
+      padding: 16px 18px;
+    }
+
+    .project h3 {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 4px;
+    }
+
+    .project h3 a {
+      color: var(--navy);
+    }
+
+    .project p {
+      font-size: 14px;
+      color: var(--muted);
+    }
+
+    .project ul {
+      list-style: none;
+      margin-top: 8px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    .project ul a {
+      font-size: 14px;
+    }
+
+    /* Availability + contact band */
+    .contact-band {
+      background: var(--navy);
+      color: #f0ede4;
+    }
+
+    .contact-band h2 {
+      color: #f7f4ea;
+    }
+
+    .contact-band p {
+      color: #c9d2da;
+    }
+
+    .availability-note {
+      display: inline-block;
+      font-family: 'IBM Plex Mono', monospace;
+      font-size: 13px;
+      color: var(--amber);
+      border: 1px solid rgba(196, 134, 58, 0.5);
+      border-radius: var(--radius);
+      padding: 6px 12px;
+      margin-bottom: 20px;
+    }
+
+    .contact-links {
+      margin-top: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      font-size: 15px;
+    }
+
+    .contact-links a {
+      color: #f0ede4;
+    }
+
+    .contact-links a:hover,
+    .contact-links a:focus-visible {
+      color: var(--amber);
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px 24px;
+      font-size: 13px;
+      color: var(--muted);
+      background: var(--paper);
+    }
+
+    @media (max-width:480px) {
+      .hero {
+        padding: 48px 20px 36px;
+      }
+
+      section {
+        padding: 36px 20px;
+      }
+
+      .timeline li {
+        gap: 12px;
+      }
+
+      .timeline .year {
+        flex-basis: 44px;
+        font-size: 12px;
+      }
+
+      .timeline li:not(:last-child)::before {
+        left: 44px;
+      }
+    }
+  </style>
 </head>
 
 <body>
-    <p>
-    <h1>BENNY ANTONY K</h1>
-    <p>Web Developer | Digital Professional</p>
-    <a href="#about">About</a> <a href="#skills">Skills</a> <a href="#education">Education</a> <a
-        href="#projects">Projects</a> <a href="#contact">Contact</a>
-    <h1>Welcome to My Professional Portfolio</h1>
-    <p>I can design and develop modern websites and provide digital solutions.</p>
-    <h2>About Me</h2>
-    <p style="text-align: justify;">IT professional since 1986 having experience in various sofwaare projects and
-        packages. I was running a IT institution providing training in various software packages for the last 30 years.
-        Worked as an EDP Manager in Bomaby for 10 years.</p>
-    <h2>Skills</h2>
-    <div class="skills-list">
-        <div class="card">HTML</div>
-        <div class="card">CSS</div>
-        <div class="card">JavaScript</div>
-        <div class="card">PHP</div>
-        <div class="card">SQL</div>
-        <div class="card">Digital Marketing</div>
-    </div>
-    <h2>Education</h2>
-    <div class="card">
-        <ol>
-            <li>
-                <h3>Diploma in Computer Management</h3>
-            </li>
-            <p>University of Bombay</p>
-            <p>1986</p>
-            <li>
-                <h3>Bachelor of Science</h3>
-            </li>
-            <p>University of Calicut</p>
-            <p>1985</p>
-        </ol>
-    </div>
-    <h2>Projects</h2>
-    <div class="project-list">
-        <div class="card">
-            <ol>
-                <li>
-                    <h3>Online services Hub</h3>
-                </li>
-                &gt;
-                <p><a href="https://advocatejain.in/">Advocate Jain</a></p>
-                <p>A professional web site of Adovate Jain. </p>
 
-                <li>
-                    <h3>Online services Hub</h3>
-                </li>
-                &gt;
-                <p><a href="https://onlineserviceshub.in/"> Online Services Hub</a></p>
-                <p>An personal initiate to provide online services. The all requests from the clients are fulfilled
-                    using thier mobile Phone.</p>
-                <li>
-                    <h3>Human Resources Protection Movement</h3>
-                </li>
-                <p><a href="https://hrpm.in/">HRPM</a></p>
-                <p>HRPM webiste enable the admin to post news, Add or Remove Members</p>
-                <li>
-                    <h3>Kakadrushiti Digital E-paper</h3>
-                </li>
-                <p><a href="https://geocities.ws/e-paper/"> Kakadrushiti Digital E-paper</a></p>
-                <li>
-                    <p><a href="https://bennykavil-hue.github.io/Eveningpaper/"> സായാഹ്ന വാർത്ത</a></p>
-                </li>
-                <li>
-                    <h3>Digital Identities</h3>
-                </li>
-                <p><a href="https://www.geocities.ws/johnsonpulluthi/" target="_blank"> Johnson Pulluthi</a></p>
-                <p><a href="https://www.geocities.ws/paulson/" target="_blank"> Paulson K K</a></p>
-                <p><a href="/mariyanaatham/" target="_blank"> Mariyanaatham Old </a></p>
-            </ol>
-        </div>
+  <header>
+    <div class="header-inner">
+      <span class="brand">Benny Antony K</span>
+      <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
     </div>
-    <h2>Availability</h2>
-    <p>Available at any time to work from home basis.</p>
-    <h2>Contact</h2>
-    <p>Email: bennykavil@gmail.com</p>
-    <p>Phone: +91 9745397722</p>
-    &Acirc;&copy; 2026 Benny Antony K | All Rights Reserved</p>
+  </header>
+
+  <main>
+    <div class="hero">
+      <div class="eyebrow">IT professional since 1986</div>
+      <h1>Benny Antony K</h1>
+      <p class="role">IT Services &amp; Online Software Training</p>
+      <p class="pitch">Three decades of hands-on IT experience — from mainframe-era EDP management to building
+        and running online services for clients across India.</p>
+    </div>
+
+    <section id="about">
+      <h2>About</h2>
+      <p>IT professional since 1986 with experience across a wide range of software projects and packages.
+        Ran an IT training institute for close to 30 years, teaching a range of software packages to students
+        and professionals. Earlier in his career, worked as an EDP Manager in Mumbai for 10 years.</p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-list">
+        <span class="skill-tag">HTML</span>
+        <span class="skill-tag">CSS</span>
+        <span class="skill-tag">JavaScript</span>
+        <span class="skill-tag">PHP</span>
+        <span class="skill-tag">SQL</span>
+        <span class="skill-tag">Digital Marketing</span>
+      </div>
+    </section>
+
+    <section id="education">
+      <h2>Education</h2>
+      <ul class="timeline">
+        <li>
+          <span class="year">1986</span>
+          <div class="detail">
+            <h3>Diploma in Computer Management</h3>
+            <p>University of Bombay</p>
+          </div>
+        </li>
+        <li>
+          <span class="year">1985</span>
+          <div class="detail">
+            <h3>Bachelor of Science</h3>
+            <p>University of Calicut</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project-list">
+
+        <div class="project">
+          <h3><a href="https://advocatejain.in/" target="_blank" rel="noopener">Advocate Jain</a></h3>
+          <p>A professional website for Advocate Jain.</p>
+        </div>
+
+        <div class="project">
+          <h3><a href="https://onlineserviceshub.in/" target="_blank" rel="noopener">Online Services Hub</a></h3>
+          <p>A personal initiative to provide online services — client requests are handled entirely from
+            their mobile phones.</p>
+        </div>
+
+        <div class="project">
+          <h3><a href="https://hrpm.in/" target="_blank" rel="noopener">Human Resources Protection Movement (HRPM)</a>
+          </h3>
+          <p>Website enabling the admin to post news and manage (add or remove) members.</p>
+        </div>
+
+        <div class="project">
+          <h3>Kakadrushiti Digital E-paper</h3>
+          <ul>
+            <li><a href="https://geocities.ws/e-paper/" target="_blank" rel="noopener">Kakadrushiti Digital E-paper</a>
+            </li>
+            <li><a href="https://bennykavil-hue.github.io/Eveningpaper/" target="_blank" rel="noopener">സായാഹ്ന
+                വാർത്ത</a></li>
+          </ul>
+        </div>
+
+        <div class="project">
+          <h3>Digital Identities</h3>
+          <ul>
+            <li><a href="https://www.geocities.ws/johnsonpulluthi/" target="_blank" rel="noopener">Johnson Pulluthi</a>
+            </li>
+            <li><a href="https://www.geocities.ws/paulson/" target="_blank" rel="noopener">Paulson K K</a></li>
+            <li><a href="/mariyanaatham/" target="_blank" rel="noopener">Mariyanaatham (Old)</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="contact-band">
+      <h2>Get in touch</h2>
+      <div class="availability-note">Available immediately &middot; work-from-home basis</div>
+      <p>Reach out for IT services, digital solutions, or online software training.</p>
+      <div class="contact-links">
+        <a href="mailto:bennykavil@gmail.com">bennykavil@gmail.com</a>
+        <a href="tel:+919745397722">+91 97453 97722</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2026 Benny Antony K. All rights reserved.
+  </footer>
+
 </body>
 
 </html>
